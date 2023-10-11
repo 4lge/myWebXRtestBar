@@ -4,7 +4,7 @@ import { VRButton } from "three/examples/jsm/webxr/VRButton.js";
 import {
   LookingGlassWebXRPolyfill,
   LookingGlassConfig
-} from "@lookingglass/webxr";
+} from "@lookingglass/webxr/dist/@lookingglass/webxr.js";
 
 const config = LookingGlassConfig;
 config.tileHeight = 512;
